@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f735d8d0aa984e6cbccc634eb414ee1, type: 3}
   m_Name: DatabaseQuests
   m_EditorClassIdentifier: 
-  quests: {fileID: 0}
-  list: []
+  quests: {fileID: 11400000, guid: 13764d79dce1cb74e8bbc8b3f446db52, type: 2}
+  list:
+  - {fileID: -7189054622785715938, guid: 13764d79dce1cb74e8bbc8b3f446db52, type: 2}
+  - {fileID: -3102864863613624165, guid: 13764d79dce1cb74e8bbc8b3f446db52, type: 2}
+  - {fileID: 3437578319779380637, guid: 13764d79dce1cb74e8bbc8b3f446db52, type: 2}
   settings:
     journalSkin: {fileID: 0}
     questsHUDSkin: {fileID: 0}
   questsTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_SelectedIDs: def9ffff
+    m_LastClickedID: -1570
+    m_ExpandedIDs: def9ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
