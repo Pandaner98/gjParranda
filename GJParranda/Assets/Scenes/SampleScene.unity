@@ -4664,6 +4664,7 @@ GameObject:
   - component: {fileID: 1274605346}
   - component: {fileID: 1274605345}
   - component: {fileID: 1274605344}
+  - component: {fileID: 1274605349}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4749,8 +4750,8 @@ MonoBehaviour:
     angularSpeed: 540
     gravity: -9.81
     maxFallSpeed: -100
-    canRun: 1
-    canJump: 1
+    canRun: 0
+    canJump: 0
     jumpForce: 6
     jumpTimes: 1
     timeBetweenJumps: 0.5
@@ -4840,6 +4841,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274605349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274605343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc12b44da9dc4e0899aaeb269539d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gid: c2099895-cb41-4ce8-83ba-0a79fa745e54
+  references: []
+  behaviorGraph: {fileID: 11400000, guid: 9aca35fac4254934a902d0f610b67a03, type: 2}
+  update: 0
+  frequency: 1
+  onComplete: 0
 --- !u!1 &1276843626
 GameObject:
   m_ObjectHideFlags: 0
