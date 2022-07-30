@@ -10,6 +10,7 @@ public class EnergyBar : MonoBehaviour
     [Range(0F,100F)]
     public float Bar;
     public int decayPerTic;
+    public int MaxHealth = 100;
     void Start()
     {
         
@@ -18,8 +19,20 @@ public class EnergyBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bar.fillAmount = Bar /100;
+        bar.fillAmount = Bar /MaxHealth;
 
          Bar -= decayPerTic * Time.deltaTime ;
+        if(Bar > MaxHealth)
+        {
+            Bar = MaxHealth;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Pickup")
+        {
+            Bar = Bar + 10;
+            Destroy(other.gameObject);
+        }
     }
 }
