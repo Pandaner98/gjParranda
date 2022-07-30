@@ -4,120 +4,168 @@ OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16215 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Users\Antonio O. Berrios\Documents\Unity Versions Holder\2020.3.37f1\Editor\Unity.exe
+C:\Program Files\Unity\2020.3.37f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Antonio O. Berrios/Documents/GitHub/gjParranda/GJParranda
+C:/Users/felit/Documents/GitHub/gjParranda/GJParranda
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63297
-Successfully changed project path to: C:/Users/Antonio O. Berrios/Documents/GitHub/gjParranda/GJParranda
-C:/Users/Antonio O. Berrios/Documents/GitHub/gjParranda/GJParranda
+62559
+Successfully changed project path to: C:/Users/felit/Documents/GitHub/gjParranda/GJParranda
+C:/Users/felit/Documents/GitHub/gjParranda/GJParranda
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
-[Subsystems] Discovering subsystems at path C:/Users/Antonio O. Berrios/Documents/Unity Versions Holder/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Antonio O. Berrios/Documents/GitHub/gjParranda/GJParranda/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/felit/Documents/GitHub/gjParranda/GJParranda/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   30.0.15.1179
+    Driver:   31.0.15.1640
 Initialize mono
-Mono path[0] = 'C:/Users/Antonio O. Berrios/Documents/Unity Versions Holder/2020.3.37f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/Antonio O. Berrios/Documents/Unity Versions Holder/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/Antonio O. Berrios/Documents/Unity Versions Holder/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Mono path[0] = 'C:/Program Files/Unity/2020.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/Antonio O. Berrios/Documents/Unity Versions Holder/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002069 seconds.
+Register platform support module: C:/Program Files/Unity/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001816 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.556 seconds
+- Completed reload, in  0.535 seconds
 Domain Reload Profiling:
-	ReloadAssembly (556ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (426ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (169ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002986 seconds.
+Registered in 0.003324 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000020CF257B010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CED9807E0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2936040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2931A20 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1D06C30 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDFB73D0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2944050 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF25B9BE0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2F68220 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2F68220 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDFB73D0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2957670 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2555380 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2280010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2555380 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2280010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2A26520 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2555380 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDFB73D0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF20FE010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF25B0C20 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE49D2E0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF22A8620 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF3519840 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
+- Completed reload, in  1.011 seconds
 Domain Reload Profiling:
-	ReloadAssembly (996ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (795ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (318ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (203ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2338 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.6 MB.
 System memory in use after: 93.8 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2775.
-Total: 3.057900 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.094500 ms MarkObjects: 2.683800 ms  DeleteObjects: 0.116200 ms)
+Total: 2.416400 ms (FindLiveObjects: 0.166400 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.082100 ms  DeleteObjects: 0.067500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,36 +174,792 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Houses
-  artifactKey: Guid(1a48be2ad52e3d341bb8c79a166df5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Houses using Guid(1a48be2ad52e3d341bb8c79a166df5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dab2c6a09f40c5bac3039c463b4e1d') in 0.008525 seconds 
+  path: Assets/audio
+  artifactKey: Guid(3362812bbda94764aa91bdad6c1ba3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio using Guid(3362812bbda94764aa91bdad6c1ba3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161ffb9af2d6991abd5ecc724174ad0b') in 0.007525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.681323 seconds.
-  path: Assets/Houses/House 1.fbx
-  artifactKey: Guid(3124e796e748dd44aa3e5f6b72c42fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Houses/House 1.fbx using Guid(3124e796e748dd44aa3e5f6b72c42fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cb49561756f7e9c6cc7c076d43f3b9') in 0.176616 seconds 
+  Time since last request: 13.895676 seconds.
+  path: Assets/audio/guiro.mp3
+  artifactKey: Guid(6c0533d7728422e4a855e282f2698444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/guiro.mp3 using Guid(6c0533d7728422e4a855e282f2698444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91319bf5822506a0300ddbc9717075d0') in 0.094668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Houses/House 2.fbx
-  artifactKey: Guid(c5ea74a154953a144a6b7fc6016c14be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Houses/House 2.fbx using Guid(c5ea74a154953a144a6b7fc6016c14be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ec18d44ee2e12af1c33b90492e82b') in 0.032829 seconds 
+  Time since last request: 13.405944 seconds.
+  path: Assets/audio/Puntiadordrum.mp3
+  artifactKey: Guid(f8b3d617a3c78c743b494253c9a83ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/Puntiadordrum.mp3 using Guid(f8b3d617a3c78c743b494253c9a83ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220b6341725c88c2c3c90f58f0f452f8') in 0.014542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Houses/House 3.fbx
-  artifactKey: Guid(86aadab9f936404479d29d627784c94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Houses/House 3.fbx using Guid(86aadab9f936404479d29d627784c94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2a08f5427235a1178bf3973103f70e') in 0.042040 seconds 
+  Time since last request: 0.000286 seconds.
+  path: Assets/audio/REQUINTODrum.mp3
+  artifactKey: Guid(d1051de31ec56014a96c1a79fe014271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/REQUINTODrum.mp3 using Guid(d1051de31ec56014a96c1a79fe014271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89c2f8a4a7387b8037d4107f1f9dc5a') in 0.018125 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Houses/House 4.fbx
-  artifactKey: Guid(d77bac4e94fefbc46bb0762597031483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Houses/House 4.fbx using Guid(d77bac4e94fefbc46bb0762597031483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef91daef1a16d24566a21cd8a378096f') in 0.028228 seconds 
+  Time since last request: 0.000320 seconds.
+  path: Assets/audio/Seguidordrum2.mp3
+  artifactKey: Guid(e4b53ae7f3d25494fa650413e6fb4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/Seguidordrum2.mp3 using Guid(e4b53ae7f3d25494fa650413e6fb4830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8039dc9ae3a2a4d3eb04ade489e1700e') in 0.017712 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002687 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CF29EC700 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2936040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1D53020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F95020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6A44EC0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5054010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5054010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF255FD80 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE147010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF64FF540 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDFBEFD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5054010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDFBEFD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDFB0FC0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F7B020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF255FD80 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5334410 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F95020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F95020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDF04010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17418420 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2789.
+Total: 2.343600 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.033900 ms  DeleteObjects: 0.043400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002884 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CF257B010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F73010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2565380 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6381020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D1770B680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2959680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE147010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5334410 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF393F020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDCDB420 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29EC700 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6381020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6381020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F73010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF22EDDC0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2793.
+Total: 2.670500 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.342800 ms  DeleteObjects: 0.047000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CEDFBEFD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F73010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5EB9B50 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE4C6CD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5DEE080 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D174E9030 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020B4507FE70 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6130020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5CE2030 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6130020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE20D010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6130020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5334410 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29EC700 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE4C6CD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE4C6CD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F73010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6E35C60 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2797.
+Total: 2.928100 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.504700 ms  DeleteObjects: 0.053400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003262 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CEDFBEFD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F73010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17769300 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE07C020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF66F68D0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5B9D020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2314420 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6130020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17419F60 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE20D010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6130020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF6769040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5128020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE07C020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE07C020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1F73010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE3EBCF0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2801.
+Total: 2.717800 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.335300 ms  DeleteObjects: 0.052400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CEDFBEFD0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF218DEC0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1C54040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5AB6E70 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5764680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60C8010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2959680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60D1420 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2959680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5E00F40 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2959680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE20D010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2959680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF4FD0090 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29EC700 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60D1420 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60D1420 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D175F1010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF3E4A070 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 2.710500 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.109400 ms MarkObjects: 2.244700 ms  DeleteObjects: 0.094300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002575 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CF257B010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF218DEC0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1DE1040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17EAE6B0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2959680 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1E77020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDEDAB10 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5E32010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF278E010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEDF04010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D191C5040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5E32010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF4FD0090 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29EC700 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF3897020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF60D1E40 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17A30030 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1E950F0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2809.
+Total: 2.713200 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.340300 ms  DeleteObjects: 0.085500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 493.434427 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(7950a7c53ad81e2458b0d979a800ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(7950a7c53ad81e2458b0d979a800ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445b320f82a347411efe3a9d5bcc7897') in 0.012990 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002695 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020CF257B010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17A30030 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1E90050 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\GameCreator.Update.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29634B0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF216A020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17EBA500 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF3873020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF3873020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF539E020 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5AAD040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE2F0010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5AAD040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CEE20D010 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5AAD040 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF5471360 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29716A0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29EC700 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF29634B0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF1C50030 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020D17A30030 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CF2836BA0 doesn't match image C:\Users\felit\Documents\GitHub\gjParranda\GJParranda\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2329 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2813.
+Total: 2.644100 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.118900 ms MarkObjects: 2.291100 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.855515 seconds.
+  path: Assets/Prefab/requinto.prefab
+  artifactKey: Guid(f1399456136976e44b93268ac7343530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/requinto.prefab using Guid(f1399456136976e44b93268ac7343530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe0a4a34f91166c82dea289a08e76cf') in 0.031758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Prefab/puntador.prefab
+  artifactKey: Guid(f234b9ca481b89246b52d098e5e52eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/puntador.prefab using Guid(f234b9ca481b89246b52d098e5e52eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237b7d26b7411308810f4e7cdf908ee3') in 0.008984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.253367 seconds.
+  path: Assets/Prefab/seguidor.prefab
+  artifactKey: Guid(36933172a49cde149a9a7413b6a133a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/seguidor.prefab using Guid(36933172a49cde149a9a7413b6a133a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e216ab05a1975bd7177d29c2577384b') in 0.008089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.026330 seconds.
+  path: Assets/Prefab/guiro.prefab
+  artifactKey: Guid(409ab068703820d4eaa594662f0af7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/guiro.prefab using Guid(409ab068703820d4eaa594662f0af7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c275fd4dc3db87e42350c4eb1f8c8c') in 0.004452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.289986 seconds.
+  path: Assets/Prefab/AudioManager.prefab
+  artifactKey: Guid(8bc0ba68eb9d17543aa5c41c330e229c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/AudioManager.prefab using Guid(8bc0ba68eb9d17543aa5c41c330e229c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9548aad7e95310ed69798328ad869ce3') in 0.009019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.577205 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd21fa7a6c7995562054ace971d31a84') in 0.002653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.730457 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9291451236daf7b1169d762991454602') in 0.005801 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
