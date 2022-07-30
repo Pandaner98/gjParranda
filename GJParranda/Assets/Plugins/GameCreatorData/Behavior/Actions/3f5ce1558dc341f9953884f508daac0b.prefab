@@ -121,5 +121,5 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  followMinRadius: 0.5
-  followMaxRadius: 0.5
+  followMinRadius: 1.5
+  followMaxRadius: 2

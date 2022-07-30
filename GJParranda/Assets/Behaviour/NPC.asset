@@ -66,7 +66,7 @@ MonoBehaviour:
   - {fileID: -7352140707476938240}
   blackboard:
     list: []
-  position: {x: 43, y: 114}
+  position: {x: 39, y: -9}
   zoom: 1
 --- !u!114 &2769052614717684091
 MonoBehaviour:
