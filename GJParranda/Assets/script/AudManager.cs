@@ -12,13 +12,13 @@ public class AudManager : MonoBehaviour
 
 
     [Range(0f,100f)]
-    [SerializeField] float GuiroVolume;
+    public float GuiroVolume;
     [Range(0f, 100f)]
-    [SerializeField] float requintoVolume;
+    public float requintoVolume;
     [Range(0f, 100f)]
-    [SerializeField] float seguidorVolume;
+    public float seguidorVolume;
     [Range(0f, 100f)]
-    [SerializeField] float puntadorVolume;
+    public float puntadorVolume;
 
     void Start()
     {
