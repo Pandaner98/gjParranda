@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7352140707476938240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f724ef21a49f14db5b3d069c81d2a53a, type: 3}
+  m_Name: Behavior Graph (none)
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: 3991179471312626661}
+  outputs: []
+  mode: 0
+  editorName: 
+  position: {x: -254, y: 1}
+  behaviorGraph: {fileID: 11400000, guid: 9aca35fac4254934a902d0f610b67a03, type: 2}
 --- !u!114 &-3264179804309620407
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19,10 +42,10 @@ MonoBehaviour:
   prefabActionsList: {fileID: 0}
   input: {fileID: 0}
   outputs:
-  - {fileID: 2769052614717684091}
+  - {fileID: 3991179471312626661}
   mode: 0
   editorName: 
-  position: {x: -398, y: -319}
+  position: {x: -69, y: -204}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,9 +62,11 @@ MonoBehaviour:
   nodes:
   - {fileID: -3264179804309620407}
   - {fileID: 2769052614717684091}
+  - {fileID: 3991179471312626661}
+  - {fileID: -7352140707476938240}
   blackboard:
     list: []
-  position: {x: 301, y: 183}
+  position: {x: 43, y: 114}
   zoom: 1
 --- !u!114 &2769052614717684091
 MonoBehaviour:
@@ -56,12 +81,37 @@ MonoBehaviour:
   m_Name: Task
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  useConditionsList: 1
+  useConditionsList: 0
   prefabConditionsList: {fileID: 2348288746620333109, guid: 9a4496274767c424d92c8add0ee56a6f, type: 3}
   useActionsList: 1
   prefabActionsList: {fileID: 4554828378467701211, guid: c2b965219ec321f489a5b39249011937, type: 3}
-  input: {fileID: -3264179804309620407}
+  input: {fileID: 3991179471312626661}
   outputs: []
   mode: 0
   editorName: Follow Player
-  position: {x: -448, y: -215}
+  position: {x: 14, y: 7}
+--- !u!114 &3991179471312626661
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3ca613e87c245f6996bb5850932f56, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  useConditionsList: 0
+  prefabConditionsList: {fileID: 0}
+  useActionsList: 0
+  prefabActionsList: {fileID: 0}
+  input: {fileID: -3264179804309620407}
+  outputs:
+  - {fileID: -7352140707476938240}
+  - {fileID: 2769052614717684091}
+  mode: 0
+  editorName: 
+  position: {x: -119.5, y: -131}
+  composite: 4
