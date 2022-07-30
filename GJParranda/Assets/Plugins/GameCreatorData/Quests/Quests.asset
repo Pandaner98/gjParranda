@@ -57,7 +57,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   uniqueID: 1b2b716b8bdf4b9ba422a1c92a88226c
   internalName: get-people
-  status: 0
+  status: 1
   isHidden: 0
   canBeAbandoned: 0
   children: []
@@ -65,7 +65,7 @@ MonoBehaviour:
   reactions: {fileID: 6056430121301849132, guid: 77d386149692534499e7694859d25732, type: 3}
   type: 1
   progress: 0
-  progressMaxValue: 10
+  progressMaxValue: 11
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
