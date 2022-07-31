@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class BasicFunctions : MonoBehaviour
 {
-    
+
+    [SerializeField] GameObject WinPanel;
+    [SerializeField] GameObject LosePanel;
     public void SceneChanger()
     {
         SceneManager.LoadScene("SampleScene");
@@ -19,5 +21,14 @@ public class BasicFunctions : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void Win()
+    {
+        WinPanel.SetActive(true);
+    }
+    public void Lose()
+    {
+        LosePanel.SetActive(true);
     }
 }

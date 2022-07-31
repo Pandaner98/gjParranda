@@ -11,9 +11,10 @@ public class EnergyBar : MonoBehaviour
     public float Bar;
     public int decayPerTic;
     public int MaxHealth = 100;
+    BasicFunctions basicFunctions;
     void Start()
     {
-        
+        basicFunctions = GameObject.Find("Canvas").GetComponent<BasicFunctions>();
     }
 
     // Update is called once per frame
@@ -26,6 +27,11 @@ public class EnergyBar : MonoBehaviour
         {
             Bar = MaxHealth;
         }
+            if(Bar <= 0) 
+            {
+                basicFunctions.Lose();
+            } 
+        
     }
     private void OnTriggerEnter(Collider other)
     {

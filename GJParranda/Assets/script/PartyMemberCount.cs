@@ -5,14 +5,14 @@ using UnityEngine;
 public class PartyMemberCount : MonoBehaviour
 {
     // Start is called before the first frame update
-    [Range(1,10)]
+    
     public int PartySize;
     AudManager audManager;
-
+    BasicFunctions basicFunctions;
     void Start()
     {
         audManager = GameObject.Find("AudioManager").GetComponent<AudManager>();
-        
+        basicFunctions = GameObject.Find("Canvas").GetComponent<BasicFunctions>();
         this.gameObject.name = "Player";
     }
 
@@ -54,6 +54,9 @@ public class PartyMemberCount : MonoBehaviour
 
                 break;
         }
-        
+        if (PartySize >= 12)
+        {
+            basicFunctions.Win();
+        }
     }
 }

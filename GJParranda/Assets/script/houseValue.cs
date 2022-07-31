@@ -10,17 +10,23 @@ public class houseValue : MonoBehaviour
     [SerializeField] GameObject PartyMeber;
     [SerializeField] TextMesh sizeNeededUI;
     PartyMemberCount partyMemberCount;
+    BasicFunctions basicFunctions;
     void Start()
     {
         sizeNeededUI.text = ParrandaSizeNeeded.ToString();
         partyMemberCount = GameObject.Find("Player").GetComponent<PartyMemberCount>();
+        basicFunctions = GameObject.Find("Canvas").GetComponent<BasicFunctions>();
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (partyMemberCount.PartySize >= 11)
+        {
+            basicFunctions.Win();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,8 +38,11 @@ public class houseValue : MonoBehaviour
             if (PartySize >= ParrandaSizeNeeded)
             {
                 PartyMeber.SetActive(true);
-                partyMemberCount.PartySize = partyMemberCount.PartySize +1;          
+                partyMemberCount.PartySize = partyMemberCount.PartySize +1;    
+                
+                
             }
         }
+        
     }
 }
